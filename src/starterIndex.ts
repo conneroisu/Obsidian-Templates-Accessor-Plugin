@@ -6,11 +6,11 @@ const VIEW_TYPE = "svelte-view";
 
 // Remember to rename these classes and interfaces!
 
-interface MyPluginSettings {
+interface TemplatesForObsidianAccessSettings {
     mySetting: string;
 }
 
-const DEFAULT_SETTINGS: MyPluginSettings = {
+const DEFAULT_SETTINGS: TemplatesForObsidianAccessSettings = {
     mySetting: 'default'
 }
 
@@ -37,9 +37,9 @@ class MySvelteView extends ItemView {
     }
 }
 
-export default class MyPlugin extends Plugin {
+export default class TemplatesForObsidianAccess extends Plugin {
     private view: MySvelteView;
-    settings: MyPluginSettings;
+    settings: TemplatesForObsidianAccessSettings;
 
     async onload() {
         await this.loadSettings();
@@ -98,9 +98,9 @@ export default class MyPlugin extends Plugin {
 }
 
 class SampleSettingTab extends PluginSettingTab {
-    plugin: MyPlugin;
+    plugin: TemplatesForObsidianAccess;
 
-    constructor(app: App, plugin: MyPlugin) {
+    constructor(app: App, plugin: TemplatesForObsidianAccess) {
         super(app, plugin);
         this.plugin = plugin;
     }

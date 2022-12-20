@@ -1,6 +1,6 @@
 {
-	"id": "obsidian-svelte-starter",
-	"name": "Svelte Starter",
+	"id": "templates-for-obsidian-access-plugin",
+	"name": "Templates For Obsidian Access Pluginer",
 	"version": "1.0.3",
 	"minAppVersion": "0.12.0",
 	"description": "A plugin development template for devs who want to use svelte in Obsidian.",

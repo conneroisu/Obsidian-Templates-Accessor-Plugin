@@ -30,7 +30,7 @@
 </script>
 
 <div>
-    <h1 class="H1">Dice Roller</h1>
+    <h1 class="H1">Templates For Obsidian</h1>
     <br>
     <div class="Dice-Roller-Container">
         <input
