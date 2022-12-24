@@ -77,6 +77,11 @@
 <div>
     <h1 class="H1">Obsidian Templates</h1>
     <br>
+    <div class="themeToggle">
+        Dark/Light
+        <input type="checkbox" id="themeToggle" />
+    </div>
+    <br>
     <div class="Search-Container">
         <!-- Adds Search Suggestions-->
         
@@ -127,6 +132,11 @@
         background-color: beige;
     }
     .H1 {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    .themeToggle {
         margin-left: auto;
         margin-right: auto;
         text-align: center;
